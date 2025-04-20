@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- navigation -->
+    <header class="header">
+      <h1><img src="https://opencart.templatetrip.com/OPC07/OPC202_tomato/OPC01/image/catalog/logo.png" alt="Logo"></h1>
+      
+      <nav class="nav-link">
+          <ul class="ul_list" id="navList">
+              <li class="li_lst"><a href="#home">Home</a></li>
+              <li class="li_lst"><a href="#menu">Menu</a></li>
+              <li class="li_lst"><a href="#about">About Us</a></li>
+              <li class="li_lst"><a href="#gallery">Gallery</a></li>
+              <li class="li_lst"><a href="#contact">Contact</a></li>
+          </ul>
+      </nav>
+      
+      <input type="text" id="searchInput" placeholder="Search...">
+  
+      <div class="cart-icon">
+          <i class="fa-solid fa-bars" id="menus"></i>
+          <a href="#cart"><i class="fa fa-shopping-cart" id="ADDCARD"></i></a>
+      </div>
+  </header>
+  
+     <!-- Background Image Slider Container -->
+      
+<div class="cart-sidebar">
+    <div class="cart-header">
+      <h2>Your Cart</h2>
+      <button onclick="alert('Close cart')" id="closecard">✖</button>
+    </div>
+  
+   
+  
+ 
+    <div class="cart-items"></div>
+  
+  
+    <div class="cart-footer">
+      <div class="subtotal">
+        <span>Subtotal</span>
+        <span class="cart-total">0</span>
+      </div>
+      <button class="btn btn-view">View Cart</button>
+      <button class="btn btn-checkout">Checkout</button>
+    </div>
+  </div>
+<div class="bg-slider" id="slider">
+    <div class="overlay">
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+  <button class="next" onclick="nextSlide()">&#10095;</button>
+    </div>
+  </div>
+  
+  <!-- getting hungry -->
+  <h1 class="gettinghungry">getting hungry</h1>
+   <div class="getting-hungry">
+   
+    <div class="getting">
+       <div class="getting_card">
+        <img src="https://opencart.templatetrip.com/OPC07/OPC202_tomato/OPC01/image/cache/catalog/demo/banners/cat-1-350x388.jpg" alt="">
+       </div>
+    </div>
+    <div class="getting">
+       <div class="getting_card">
+        <img src="https://opencart.templatetrip.com/OPC07/OPC202_tomato/OPC01/image/cache/catalog/demo/banners/cat-2-350x388.jpg" alt="">
+       </div>
+    </div>
+    <div class="getting">
+       <div class="getting_card">
+        <img src="https://opencart.templatetrip.com/OPC07/OPC202_tomato/OPC01/image/cache/catalog/demo/banners/cat-4-350x388.jpg" alt="">
+       </div>
+    </div>
+   </div>
+   <section class="promo-section">
+   <div class="promo-container">
+     <div class="promo-left">
+       <img src="https://opencart.templatetrip.com/OPC07/OPC202_tomato/OPC01/image/catalog/demo/banners/about-img.jpg" alt="Burger Combo" class="promo-image">
+       <div class="price-tag">
+         <h2>$1.99</h2>
+         <p>Per one</p>
+       </div>
+     </div>
+     <div class="promo-right">
+       <h3><span class="pizza-icon">🍕</span> Pizza!</h3>
+       <h1>Let's Happy Hours!</h1>
+       <p>We are proud of our coffee shop with the highest-quality products, most inviting stores, friendliest staff and the best coffee in the world.</p>
+       <button class="view-btn">View More</button>
+     </div>
+   </div>
+ </section>
+ <section class="section__container banner__container" id="special">
+  <div class="banner__card">
+    <p>TRY IT OUT TODAY</p>
+    <h4>MOST POPULAR BURGER</h4>
+  </div>
+  <div class="banner__card">
+    <p>TRY IT OUT TODAY</p>
+    <h4>MORE FUN<br />MORE TASTE</h4>
+  </div>
+  <div class="banner__card">
+    <p>TRY IT OUT TODAY</p>
+    <h4>FRESH & CHILI</h4>
+  </div>
+</section>
+
+<section class="productgrid">
+ 
+  <h2 class="section__header">CHOOSE & ENJOY</h2>
+  <div class="product-grid"></div>
+     </section>
+  
+     <div class="banner-container">
+      <!-- Left Banner -->
+      <div class="banner banner1">
+        <img src="https://opencart.templatetrip.com/OPC07/OPC202_tomato/OPC01/image/catalog/demo/banners/banner-01.jpg" alt="Chicken Wrap">
+       
+      </div>
+  
+      <!-- Right Banner -->
+      <div class="banner banner2">
+        <img src="https://opencart.templatetrip.com/OPC07/OPC202_tomato/OPC01/image/catalog/demo/banners/banner-02.jpg" alt="Special Combo">
+        
+      </div>
+    </div>
+  
+   
+    </div>
+     <div class="container">
+      <div class="text-section">
+        <h1>Hungry Like<br>A Wolf!</h1>
+        <p>We are proud of our coffee shop with the highest-quality products, most inviting stores, friendliest staff and the best coffee in the world.</p>
+        <button class="btn">View More</button>
+      </div>
+      <div class="image-section">
+        <img src="https://opencart.templatetrip.com/OPC07/OPC202_tomato/OPC01/image/catalog/demo/banners/offer-img.jpg" alt="Tacos or Wraps" />
+        <div class="price-tag">
+          $2.99<br><small>Per one</small>
+        </div>
+      </div>
+    </div>
+    <!-- Latest News Section -->
+    <section class="news-section">
+      <h2 class="section-title">🍕 Latest News</h2>
+      <div class="card-wrapper">
+        <div class="news-card">
+          <img src="https://opencart.templatetrip.com/OPC07/OPC202_tomato/OPC01/image/cache/catalog/demo/banners/5-home-default-370x240.jpg" alt="Pizza 1">
+          <p class="date">📅 4 Jun–2019</p>
+          <h3>Scelerisque Vestibulum...</h3>
+        </div>
+        <div class="news-card">
+          <img src="https://opencart.templatetrip.com/OPC07/OPC202_tomato/OPC01/image/cache/catalog/demo/banners/1-home-default%20-370x240.jpg" alt="Pizza 2">
+          <p class="date">📅 4 Jun–2019</p>
+          <h3>Nec Intellegat...</h3>
+        </div>
+        <div class="news-card">
+          <img src="https://opencart.templatetrip.com/OPC07/OPC202_tomato/OPC01/image/cache/catalog/demo/banners/2-home-default-370x240.jpg" alt="Pizza 3">
+          <p class="date">📅 4 Jun–2019</p>
+          <h3>Viderer Voluptatum Te Eum</h3>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Recent Blogs Section -->
+    <section class="blog-section">
+      <p class="sub-heading">— ROYAL FARE BLOGS</p>
+      <h2 class="section-title">Our Dynamic <span>Recent Blogs</span></h2>
+      <div class="card-wrapper">
+        <div class="blog-card">
+          <img src="https://uiparadox.co.uk/templates/royalfare/v2/assets/media/blogs/blog_1.png" alt="Hot Dog">
+          <div class="blog-info">
+            <span class="tag">FOOD</span>
+            <h3>Hot dog dressed in mustard, accompanied by a side of ketchup</h3>
+            <p>November 10, 2024 • 560 Views • 2 Comment</p>
+          </div>
+        </div>
+        <div class="blog-card">
+          <img src="https://uiparadox.co.uk/templates/royalfare/v2/assets/media/blogs/blog_2.png" alt="Burger">
+          <div class="blog-info">
+            <span class="tag">FOOD</span>
+            <h3>Indulge in a sesame bun burger, crispy French fries, and a tasty milkshake</h3>
+            <p>November 10, 2024 • 560 Views • 2 Comment</p>
+          </div>
+        </div>
+        <div class="blog-card">
+          <img src="https://uiparadox.co.uk/templates/royalfare/v2/assets/media/blogs/blog_3.png" alt="Wrap">
+          <div class="blog-info">
+            <span class="tag">FOOD</span>
+            <h3>Two meat and cheese sandwiches with tomatoes between toasted bread</h3>
+            <p>November 10, 2024 • 560 Views • 2 Comment</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+</body>
+</html>
+
+  
+
+</body>
+<script src="scripth.js"></script>
+</html>
+
+
